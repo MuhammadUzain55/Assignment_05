@@ -53,9 +53,30 @@
 
 /*************** heading css ****************/
 
-.container head {
+.head {
     color: #ffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.head p {
+    font-size: 30px;
+
+}
+
+.head h1 {
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.head button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 15px;
+    width: 180px;
 }
