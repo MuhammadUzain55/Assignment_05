@@ -143,4 +143,229 @@
 
 .sidebar {
     display: flex;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.sidebar h1 {
+    font-size: 3em;
+    margin: 30px 20px;
+}
+.sidebar p {
+    font-size: x-large;
+    margin: 30px 20px;
+}
+
+.sidebar a {
+    margin: 30px 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.sidebar a:hover {
+    color: #1701CD;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sidebar img {
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+/********************** Double sidebar1 *************************/
+
+.sidebar1 img {
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sidebar1 {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.sidebar1 h1 {
+    font-size: 3em;
+    margin: 30px 20px;
+}
+.sidebar1 p {
+    font-size: x-large;
+    margin: 30px 20px;
+}
+
+.sidebar1 a {
+    margin: 30px 20px;
+    text-decoration: none;
+    color: gray;
+}
+
+.sidebar1 a:hover {
+    color: #1701CD;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/****************** Content css **********************/
+
+.mainCont {
+    padding-left: 200px;
+    align-self: center;
+}
+
+.cont h1 {
+    font-size: 3em;
+    padding-top: 200px;
+}
+
+.cont p {
+    font-size: 1.3em;
+    padding-top: 50px;
+}
+
+.sideBarCont {
+    display: flex;
+    padding-top: 50px;
+    column-gap: 20px;
+}
+
+.sideImg img {
+    width: 40px;
+}
+
+.sideImgCont h1 {
+    font-size: 2em;
+}
+
+.sideImgCont p {
+    font-size: medium   ;
+    padding-top: 10px;
+}
+
+.sideImg1 {
+    padding-left: 100px;
+}
+
+.sideImg1 img {
+    width: 40px;
+}
+
+.sideImgCont1 h1 {
+    font-size: 2em;
+}
+
+.sideImgCont1 p {
+    font-size: medium;
+    padding-top: 10px;
+}
+
+/************************* Center box ***********************/
+
+.centerBoxMain {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.centerBox {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffff;
+    background-color: #23242a;
+    border-radius: 10px;
+}
+
+.centerBox h1 {
+    font-size: 2em;
+}
+
+.centerBox p {
+    font-size: large;
+    padding-top: 20px;
+}
+
+.centerBox button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 15px;
+    width: 180px;
+}
+
+/******************* Parah and link *************************/
+
+.parah {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.parah h1 {
+    font-size: 2em;
+}
+
+.parah a {
+    font-size: large;
+}
+
+/************************** Boxes1 ***************************/
+
+.boxes1 {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.bx {
+    position: relative;
+    width: 300px;
+    height: 330px;
+    margin: 80px 10px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(197, 182, 182, 0.2)
+}
+
+.bx a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
+.bx1 {
+    width: 300px;
+    height: 330px;
+    margin: 80px 10px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(197, 182, 182, 0.2)
+}
+
+.bx2 {
+    width: 300px;
+    height: 330px;
+    margin: 80px 10px;
+    border-radius: 10px;
+    background-color: #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(197, 182, 182, 0.2)
 }
