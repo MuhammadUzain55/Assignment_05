@@ -14,14 +14,14 @@
     /* color: #ffff; */
 }
 
-  /********** navbar css  ****************/
+/********** navbar css  ****************/
 
 .navbar {
     color: #ffff;
     display: flex;
 }
 
-.navbar img { 
+.navbar img {
     width: 100px;
     margin: 20px 20px;
 }
@@ -33,7 +33,7 @@
     padding: 30px;
     gap: 40px;
     display: flex;
-} 
+}
 
 .navbar ul button {
     padding: 5px;
@@ -85,6 +85,7 @@
     display: flex;
     padding-left: 50px;
 }
+
 .boxes div {
     width: 350px;
     height: 330px;
@@ -94,46 +95,64 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
-.box1 p, .box1 h1, .box1 a {
+.box1 p,
+.box1 h1,
+.box1 a {
     margin: 30px 50px;
 }
 
-.box1 p, .box1 a {
+.box1 p,
+.box1 a {
     font-size: large;
 }
 
 
 
-.box2 p, .box2 h1, .box2 a {
+.box2 p,
+.box2 h1,
+.box2 a {
     margin: 30px 50px;
 }
 
-.box2 p, .box2 a {
+.box2 p,
+.box2 a {
     font-size: large;
 }
 
-.box3 p, .box3 h1, .box3 a {
+.box3 p,
+.box3 h1,
+.box3 a {
     margin: 30px 50px;
 }
 
-.box3 p, .box3 a {
+.box3 p,
+.box3 a {
     font-size: large;
 }
 
-.box4 p, .box4 h1, .box4 a {
+.box4 p,
+.box4 h1,
+.box4 a {
     margin: 30px 50px;
 }
 
-.box4 p, .box4 a {
+.box4 p,
+.box4 a {
     font-size: large;
 }
 
-.box1 a, .box2 a, .box3 a, .box4 a {
+.box1 a,
+.box2 a,
+.box3 a,
+.box4 a {
     text-decoration: none;
     color: gray;
 }
 
-.box1 a:hover, .box2 a:hover, .box3 a:hover, .box4 a:hover {
+.box1 a:hover,
+.box2 a:hover,
+.box3 a:hover,
+.box4 a:hover {
     color: #1701CD;
     text-decoration: underline;
     cursor: pointer;
@@ -153,6 +172,7 @@
     font-size: 3em;
     margin: 30px 20px;
 }
+
 .sidebar p {
     font-size: x-large;
     margin: 30px 20px;
@@ -197,6 +217,7 @@
     font-size: 3em;
     margin: 30px 20px;
 }
+
 .sidebar1 p {
     font-size: x-large;
     margin: 30px 20px;
@@ -246,7 +267,7 @@
 }
 
 .sideImgCont p {
-    font-size: medium   ;
+    font-size: medium;
     padding-top: 10px;
 }
 
@@ -274,6 +295,7 @@
     justify-content: center;
     padding-top: 100px;
 }
+
 .centerBox {
     width: 70%;
     height: 250px;
@@ -336,36 +358,102 @@
     width: 300px;
     height: 330px;
     margin: 80px 10px;
+    padding: 40px 40px;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #ffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(197, 182, 182, 0.2)
 }
 
-.bx a {
+.bx p {
+    padding-top: 30px;
+}
+
+.bx div a {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #f1f1f1;
-    padding: 10px;
+    height: 50px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    padding: 20px;
+    text-align: center;
     text-decoration: none;
     color: gray;
 }
 
+.bx a:hover {
+    color: #1701CD;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .bx1 {
+    position: relative;
     width: 300px;
     height: 330px;
     margin: 80px 10px;
+    padding: 40px 40px;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #ffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(197, 182, 182, 0.2)
 }
 
+.bx1 p {
+    padding-top: 30px;
+}
+
+.bx1 div a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+
+.bx1 a:hover {
+    color: #1701CD;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .bx2 {
+    position: relative;
     width: 300px;
     height: 330px;
     margin: 80px 10px;
+    padding: 40px 40px;
+    border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #ffff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(197, 182, 182, 0.2)
+}
+
+.bx2 p {
+    padding-top: 30px;
+}
+
+.bx2 div a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #ffff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+
+.bx2 a:hover {
+    color: #1701CD;
+    text-decoration: underline;
+    cursor: pointer;
 }
