@@ -457,3 +457,29 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+/********************** Content1 with image css **********************/
+
+.content1 {
+    padding-top: 300px;
+}
+
+.content1 h1 {
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+.content1 p {
+    font-size: 1.33em;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.content1 img {
+    padding-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
