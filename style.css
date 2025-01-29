@@ -551,7 +551,8 @@
 .main-sidebar4 {
     display: flex;
     justify-content: center;
-    padding-right: 60px;
+    padding-left: 120px;
+    margin-top: -50px;
 }
 
 .main-sidebar4 .cont .side-img img {
@@ -561,7 +562,156 @@
 }
 
 .main-sidebar4 .sidebar-img img {
-    width: 50vh;
+    width: 55vh;
     border-radius: 10px;
-    margin: 50px 100px;
+    margin: 200px 100px;
+}
+
+/************************ Content2 css **************************/
+
+.main-content2 {
+    margin-top: -200px;
+}
+
+.main-content2 .cont {
+    text-align: center;
+}
+
+.main-content2 .cont h1 {
+    font-size: 2em;
+}
+
+.main-content2 .tag {
+    display: flex;
+    justify-content: center;
+    padding-right: 450px;
+    padding-top: 40px;
+}
+
+.tag .tag-cont {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.tag .tag-cont p {
+    font-size: large;
+}
+
+.main-content2 .tag img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+/******************************* slider image css *******************************/
+
+.main-slider {
+    padding-top: 200px;
+}
+
+.main-slider img {
+    width: 100%;
+}
+
+/******************************** Content3 css ********************************/
+
+.main-content3 {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.main-content3 h1 {
+    font-size: 3em;
+}
+
+.main-content3 p {
+    font-size: x-large;
+    padding-top: 50px;
+}
+
+/******************************** Ceo images css *******************************/
+
+.main-ceo-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.main-ceo-images .ceo1-img img {
+    width: 33vh;
+    height: 38vh;
+    border-radius: 10px;
+}
+
+.main-ceo-images .ceo2-img img {
+    width: 33vh;
+    height: 38vh;
+    border-radius: 10px;
+}
+
+.main-ceo-images .ceo3-img img {
+    width: 33vh;
+    height: 38vh;
+    border-radius: 10px;
+}
+
+.main-ceo-images .ceo4-img img {
+    width: 33vh;
+    height: 38vh;
+    border-radius: 10px;
+}
+
+.main-ceo-images h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.main-ceo-images p {
+    text-align: center;
+    font-size: large;
+}
+
+/******************************* Double sidebar5 css ****************************/
+
+.main-sidebar5 {
+    display: flex;
+    padding-top: 200px;
+}
+
+.main-sidebar5 .side-img img {
+    width: 110vh;
+}
+
+.main-sidebar5 .cont {
+    padding-left: 70px;
+}
+
+.main-sidebar5 .cont h1 {
+    font-size: 4em;
+}
+
+.main-sidebar5 .cont button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffff;
+    background-color: #0070fe;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 15px;
+    width: 200px;
+}
+
+/******************************** Bottom border *********************************/
+
+.main-bottom p {
+    padding-left: 150vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+}
+
+.main-bottom hr {
+    margin-top: -5px;
 }
