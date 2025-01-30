@@ -6,12 +6,16 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 1400px) {
+    .container {
+        text-align: center;
+    }
+}
+
 .container {
-    /* width: 100%; */
     height: 700px;
     background-color: #23242a;
     font-family: "Roboto", serif;
-    /* color: #ffff; */
 }
 
 /********** navbar css  ****************/
@@ -607,10 +611,39 @@
 
 .main-slider {
     padding-top: 200px;
+    position: relative;
+    display: inline-block;
 }
 
 .main-slider img {
     width: 100%;
+    display: block;
+}
+
+.main-slider button {
+    position: absolute;
+    bottom: 5px;
+    transform: translateY(-50%); /* Exact center positioning fix krta hai */
+    background-color: #cbdee9;
+    border: none;
+    padding: 5px 10px;
+    font-size: 30px;
+    color: #8eb0c4;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.main-slider .prev {
+    left: 46%;
+}
+
+.main-slider .next {
+    right: 46%;
+}
+
+.main-slider button:hover {
+    background-color: #0070fe;
 }
 
 /******************************** Content3 css ********************************/
